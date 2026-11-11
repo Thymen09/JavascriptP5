@@ -6,7 +6,7 @@
 
 Je kunt een term als `fetch()` of `.then()` ook direct opzoeken in de zoekbalk bovenaan de cheat sheet — dan spring je meteen naar de uitleg.
 
-Vul `films.json` met minimaal 4 films. Gebruik deze structuur:
+Vul `movies.json` met minimaal 4 films. Gebruik deze structuur:
 
 ```json
 [
@@ -14,4 +14,4 @@ Vul `films.json` met minimaal 4 films. Gebruik deze structuur:
 ]
 ```
 
-Schrijf daarna de fetch in `script.js` om de films te tonen.
+Schrijf daarna de fetch in `script.js` om de films te tonen. Open `index.html` via een lokale webserver (bijvoorbeeld WAMP/`http://localhost/...`); `fetch()` werkt niet betrouwbaar wanneer je het bestand direct als `file://` opent.
